@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #004aad;
+    padding: 15px 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px;
+    background: #ffffff;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero-text h1 {
+    color: #e84c3d;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.hero img {
+    width: 230px;
+    border-radius: 50%;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Skills */
+.skill-boxes {
+    display: flex;
+    gap: 20px;
+}
+
+.skill-box {
+    background: #005adad7;
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+    width: 180px;
+    text-align: center;
+}
+
+.skill-box h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Projects */
+.project-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.project-card h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Contact */
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 300px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #004aad;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #004aad;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+footer a {
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    text-decoration: none;
+}
